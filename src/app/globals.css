@@ -5,3 +5,14 @@
     justify-content: center;
     align-items: center;
 }
+
+.img{
+    width: 20px;
+    margin: 0px 8px;
+}
+
+.icon {
+    fill: rgb(209, 211, 220);
+    width: 18px;
+    height: 18px;
+  }
