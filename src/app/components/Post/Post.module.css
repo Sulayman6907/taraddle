@@ -1,15 +1,14 @@
-.container{
-    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.2);
+.post_container{
     background-color: #15171f;
-    width:30%;
+    width:40%;
     display: flex;
     color:white;
     justify-content: space-between;
-    border-width: 1px;
+    border-bottom-width: 1px solid;
     height:50px;
     align-items: center;
     padding:8px;
-    border-color: #434652;
+    border-bottom: #434652 1px solid;
 }
 
 .text {
@@ -20,24 +19,9 @@
     letter-spacing: 0.5px;
 }
 
-.button{
-    height: 28px;
-    display: flex;
-    align-self: center;
-    align-items: center;
-    padding-top: 4px;
-    padding: 4px 16px;
-    justify-content: center;
-    background-color: #DCDCDD;
-    border-radius: 4px;
-    color: rgb(21, 23, 31);
-}
-
-.button:hover{
-    background-color: rgb(21, 23, 31);
-    color: #DCDCDD;
-    border-color: #DCDCDD;
-    border-width: 1px;
-    border-style: solid;
-    cursor: pointer;
+@media (max-width: 768px) {
+    /* Adjust the width for larger screens (e.g., tablets and desktops) */
+    .post_container {
+      width: 100%;
+    }
 }

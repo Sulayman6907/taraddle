@@ -1,0 +1,51 @@
+.postcontent_container{
+    background-color: #15171f;
+    width:40%;
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    border-width: 1px;
+    height:200px;
+    align-items: center;
+    flex-direction: column;
+    padding:8px;
+    border-bottom: #434652 1px solid;
+}
+
+.textarea{
+    display: flex;
+    width: 100%;
+    margin: 0px 8px;
+    border-color: #434652;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    color:white;
+    height:80px;
+    background-color: #15171f;
+    justify-content: center;
+}
+
+.example-tag{
+    background-color: aliceblue;
+}
+
+.button_container{
+    display: flex;
+    width:50%;
+    justify-content: flex-end;
+}
+
+.bottom_container{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 768px) {
+    /* Adjust the width for larger screens (e.g., tablets and desktops) */
+    .postcontent_container {
+      width: 100%;
+    }
+}
